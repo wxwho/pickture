@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pickture.sopt20th.com.pickutre">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+
+    <application
+        android:name="pickture.sopt20th.com.pickutre.Application.ApplicationController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+        >
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <fragment android:name=".MainFragment.HomeFragment" />
+        <fragment android:name=".MainFragment.MyPageFragment" />
+        <fragment android:name=".MainFragment.MyPickFragment" />
+        <fragment android:name=".MainFragment.FindModelFragment" />
+        <fragment android:name=".MainFragment.MyPageFragment" />
+        <fragment android:name=".MainFragment.SearchFragment" />
+        <fragment android:name=".PhotographerInfoFragment.PhotographerPortfolioFragment" />
+        <fragment android:name=".PhotographerInfoFragment.PhotographerDetailFragment" />
+        <fragment android:name=".PhotographerInfoFragment.PhotographerReviewFragment" />
+        <fragment android:name=".MyPickFragment.MyPickPhotoListFragment" />
+        <fragment android:name=".MyPickFragment.MyPickPhotographerListFragment" />
+
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.CategoryActivity" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.EstimateBoxActivity" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.EstimateDetailActivity" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.LoginActivity" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.MainActivity" android:windowSoftInputMode="adjustNothing" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.MakeReviewActivity" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.ModelApplyBoxActivity" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.MakeEstimateActivity" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.PhotoDetailActivity" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.PhotographerInfoActivity" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.PhotographerSignUpActivity1" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.PhotographerSignUpActivity2" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.PurchaseListActivity" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.UserSignUpActivity" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.ModelRecruitDetailActivity" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.ModelApplyActivity" />
+
+        <activity
+            android:name="pickture.sopt20th.com.pickutre.Dialog.ReviewDialog"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" />
+        <activity
+            android:name="pickture.sopt20th.com.pickutre.Dialog.ModelApplyDialog"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" />
+        <activity
+            android:name="pickture.sopt20th.com.pickutre.Dialog.AddPhotoDialog"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" />
+        <activity
+            android:name="pickture.sopt20th.com.pickutre.Dialog.FinishEstimateDialog"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" />
+        <activity
+            android:name="pickture.sopt20th.com.pickutre.Dialog.OnlyForPhotographerDialog"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.EnlargePhotoActivity" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.SelectMyPickPhotoActivity" />
+        <activity android:name="pickture.sopt20th.com.pickutre.Activity.MyPickEnlargePhotoActivity"></activity>
+    </application>
+
+</manifest>

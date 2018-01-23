@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="57dp">
+
+    <TextView
+        android:id="@+id/le_index"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="01"
+        android:textColor="#E5A71C"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/le_photographer_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:layout_marginLeft="15dp"
+        android:text="new photographer"
+        android:textColor="#282828"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/le_response_state"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="답변대기"
+        android:textColor="#939393"
+        android:textSize="14sp"
+        android:gravity="center_vertical"/>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="#ffffff"
+    android:layout_centerInParent="true"
+    tools:context="pickture.sopt20th.com.pickutre.Dialog.FinishEstimateDialog">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="견적 문의 완료"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="'견적서 보관함'에서 문의내역 및 \n작가님의 답변을 확인할 수 있습니다."
+            android:textSize="10sp"/>
+
+        <Button
+            android:id="@+id/afed_go_to_estimate_box_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="견적서 보관함으로 이동"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:background="#000000"/>
+
+        <Button
+            android:id="@+id/afed_ok_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="확인"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:background="#000000"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

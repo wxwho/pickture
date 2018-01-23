@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_account"
+    tools:context="pickture.sopt20th.com.pickutre.Activity.PhotographerSignUpActivity2">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:gravity="center"
+        android:text="Photographer"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="96dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="촬영 카테고리"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DATE"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorControlNormal"
+                    android:id="@+id/as3_date_cb"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="FREINDS"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorControlNormal"
+                    android:id="@+id/as3_freinds_cb"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="WEDDING"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorControlNormal"
+                    android:id="@+id/as3_wedding_cb"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BABY"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorControlNormal"
+                    android:id="@+id/as3_baby_cb"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="PROFILE"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorControlNormal"
+                    android:id="@+id/as3_profile_cb"/>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="ETC"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorControlNormal"
+                    android:id="@+id/as3_etc_cb"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="활동장소"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="30dp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/as3_area_sp"
+            android:background="@drawable/select_box_place"/>
+
+        <Button
+            android:layout_width="116dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="73dp"
+            android:background="@drawable/finish_button"
+            android:text="완료"
+            android:textColor="#000000"
+            android:id="@+id/as3_finish_btn"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

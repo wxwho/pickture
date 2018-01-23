@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="13dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="lhyu1212"
+            android:textColor="#282828"
+            android:textSize="14sp"
+            android:id="@+id/ip_id"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ip_date"
+            android:layout_weight="1.5"
+            android:layout_gravity="center_vertical"
+            android:text="2017.06.15"
+            android:textSize="12sp"
+            android:textColor="#282828"
+            />
+
+        <me.zhanghai.android.materialratingbar.MaterialRatingBar
+            android:id="@+id/ip_ratingbar"
+            android:layout_width="0dp"
+            android:layout_height="12dp"
+            android:layout_weight="1.5"
+            android:numStars="5"
+            android:rating="4"
+            android:max="5"
+            style="@style/Widget.MaterialRatingBar.RatingBar.Indicator.Small"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/ip_review"
+        android:textSize="12sp"
+        android:text="내용없음"
+        android:textColor="#282828"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_marginTop="13dp"
+        android:background="#9b9b9b"></LinearLayout>
+
+</LinearLayout>

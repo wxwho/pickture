@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city">
+        <item>지역 선택</item>
+        <item >서울</item>
+        <item >경기·인천</item>
+        <item >강원</item>
+        <item >충북·세종</item>
+        <item >충남·대전</item>
+        <item >경북·대구</item>
+        <item >경남·울산∙부산</item>
+        <item >전북</item>
+        <item >전남·광주</item>
+        <item >제주</item>
+
+    </string-array>
+
+    <string-array name="category">
+        <item>CATEGORY</item>
+        <item>DATE</item>
+        <item>FRIENDS</item>
+        <item>WEDDING</item>
+        <item>BABY</item>
+        <item>PROFILE</item>
+        <item>ETC</item>
+    </string-array>
+
+    <string-array name="categoryKorean">
+        <item>카테고리</item>
+        <item>DATE</item>
+        <item>FREINDS</item>
+        <item>WEDDING</item>
+        <item>BABY</item>
+        <item>PROFILE</item>
+        <item>ETC</item>
+    </string-array>
+
+    <string-array name="categoryRealKorean">
+        <item>카테고리</item>
+        <item>데이트</item>
+        <item>우정</item>
+        <item>웨딩</item>
+        <item>아기</item>
+        <item>프로필</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="parts">
+        <item>촬영인원</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+</resources>

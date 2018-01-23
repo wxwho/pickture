@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/ip_index"
+        android:layout_width="23dp"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textSize="20sp"
+        android:textColor="@color/mainYellow"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/ip_phtographer_name"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="photographer name"
+        android:textSize="16sp"
+        android:textColor="#282828"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/ip_date"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:text="00-00-00"
+        android:textSize="13sp"
+        android:textColor="#555555"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/ip_review_img"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="34dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/review_yellow"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:tag="yellow"/>
+</LinearLayout>

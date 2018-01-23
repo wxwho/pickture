@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pickture.sopt20th.com.pickutre.Activity.MakeEstimateActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/request_txt"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal"
+        android:background="#282828">
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="39dp"
+            android:src="@drawable/sendrequest_white"/>
+        <com.mikhaellopez.circularimageview.CircularImageView
+            app:civ_border_width="0dp"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="19dp"
+            android:src="@drawable/temp_photograper_profile"/>
+        <TextView
+            android:id="@+id/ame_toolbar_pgId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:text="(none)"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="38dp"
+        android:layout_gravity="center_horizontal">
+
+        <Spinner
+            android:id="@+id/ame_category_sp"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/send_request_dropdown">
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/ame_product_sp"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/send_request_dropdown">
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginTop="13dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/ame_date_txt"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="9dp"
+            android:text="촬영날짜"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/send_request_calendar"
+            android:layout_weight="0.5"/>
+
+        <Spinner
+            android:id="@+id/ame_parts_sp"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/send_request_dropdown"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="33dp"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/location_black"/>
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="7dp"
+            android:text="희망 촬영 장소"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#282828"/>
+        <EditText
+            android:id="@+id/ame_wish_spot_edit"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:textSize="13sp"
+            android:textColor="#282828"
+            android:background="@drawable/edit_bottom_line_for_making_estimate"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/heart"/>
+
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="7dp"
+            android:text="세부 희망 사항"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#282828"/>
+
+        <EditText
+            android:id="@+id/ame_detail_wish_edit"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="0.6"
+            android:textSize="13sp"
+            android:textColor="#282828"
+            android:background="@drawable/edit_bottom_line_for_making_estimate"
+            android:singleLine="false"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:text="첨부 사진"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="#282828"/>
+
+    <LinearLayout
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="13dp">
+
+        <ImageView
+            android:id="@+id/ame_add_photo_img1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/temp_call_gallery_btn"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/ame_add_photo_img2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/temp_call_gallery_btn"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/ame_add_photo_img3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/temp_call_gallery_btn"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ame_send_estimate_btn"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="49dp"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:background="@drawable/send_button"/>
+
+
+</LinearLayout>

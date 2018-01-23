@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="38dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginRight="42dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/aed_category"
+                android:layout_width="0dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                android:text="웨딩"
+                android:textColor="#282828"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:background="#EFEFEF"/>
+
+            <TextView
+                android:id="@+id/aed_product"
+                android:layout_width="0dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="25dp"
+                android:text="상품 A 보정형"
+                android:textColor="#282828"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:background="#EFEFEF"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginRight="42dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/aed_date"
+                android:layout_width="0dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                android:text="2017-08-01"
+                android:textColor="#282828"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:background="#EFEFEF"/>
+
+            <TextView
+                android:id="@+id/aed_part"
+                android:layout_width="0dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="25dp"
+                android:text="12명"
+                android:textColor="#282828"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:background="#EFEFEF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="43dp"
+            android:layout_marginLeft="45dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:src="@drawable/location_black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:text="희망 촬영장소:"
+                android:textColor="#282828"
+                android:textStyle="bold"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/aed_prefered_spot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="희망촬영장소"
+                android:textColor="#282828"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="42dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="42dp"
+            >
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:src="@drawable/heart" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:text="세부 희망사항:"
+                android:textColor="#282828"
+                android:textStyle="bold"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/aed_prefered_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="세부희망사항"
+                android:textColor="#282828"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:text="첨부 사진"
+            android:textColor="#282828"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginRight="41dp">
+
+            <ImageView
+                android:id="@+id/aed_attached_1"
+                android:layout_width="0dp"
+                android:layout_height="93dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/artist_button"/>
+
+            <ImageView
+                android:id="@+id/aed_attached_2"
+                android:layout_width="0dp"
+                android:layout_height="93dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/artist_button"/>
+
+            <ImageView
+                android:id="@+id/aed_attached_3"
+                android:layout_width="0dp"
+                android:layout_height="93dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/artist_button"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="51dp"
+            android:text="답변대기"
+            android:textColor="#95989A"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/aed_answerwait"/>
+
+        <LinearLayout
+            android:id="@+id/aed_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="51dp"
+            android:orientation="vertical">
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#D0D0D0D0"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_marginLeft="44dp"
+                android:orientation="horizontal">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/aed_profile_2"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="19dp"
+                    android:src="@drawable/profile2"
+                    app:civ_border_width="0dp" />
+
+                <TextView
+                    android:id="@+id/aed_photographer_id_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="22dp"
+                    android:text="BesideUsnap"
+                    android:textColor="#282828"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/aed_comment_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="52dp"
+                android:layout_marginRight="52dp"
+                android:text="8월 1일 애완견 동반촬영 가능합니다. 입금계좌번호:110-292-xxxxxxxx입니다.입금 부탁드려요~" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/aed_deposit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="95dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="30dp"
+                android:src="@drawable/purchase_yellow"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:text="입금하기"
+                android:textColor="#E5A71C"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/aed_deposit_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="62dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="30dp"
+                android:src="@drawable/purchase_gray"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:text="입금완료"
+                android:textColor="#C3C3C3"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/aed_phoneNum_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/phone_button"
+            android:layout_marginBottom="73dp"
+            android:text="010-xxxx-xxxx"
+            android:textColor="#282828"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingLeft="65dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+</ScrollView>

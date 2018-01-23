@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pickture.sopt20th.com.pickutre.Activity.ModelRecruitDetailActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:src="@drawable/model_txt"
+            android:layout_gravity="center" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#282828"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="51dp"
+            android:layout_height="42dp">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/amrd_profile"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="7dp"
+                android:src="@drawable/profile2"
+                app:civ_border_width="0dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="231dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="9dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/amrd_pg_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:text="(YULK Snap)"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/amrd_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="(커플 모델 구인합니다)"
+                android:textColor="#D4D4D4D4"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/amrd_apply_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:text="신청"
+            android:textColor="@color/mainYellow" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="22dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/amrd_imageView"
+                android:layout_width="match_parent"
+                android:layout_height="207dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/test" />
+
+            <ImageView
+                android:id="@+id/amrd_imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="207dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/test" />
+
+            <ImageView
+                android:id="@+id/amrd_imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="207dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/test" />
+
+            <ImageView
+                android:id="@+id/amrd_imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="207dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/test" />
+
+            <ImageView
+                android:id="@+id/amrd_imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="207dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/test" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="52dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="59dp">
+
+                <ImageView
+                    android:layout_width="4dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/yellow_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="14dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/model_concept" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="촬영컨셉:"
+                            android:textColor="#282828"
+                            android:textStyle="bold"
+                            android:textSize="13sp"
+                            android:layout_marginLeft="8dp"/>
+
+                        <TextView
+                            android:id="@+id/amrd_concept"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="(데이트사진)"
+                            android:layout_marginLeft="5dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/model_friends" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="모델조건:"
+                            android:textColor="#282828"
+                            android:textStyle="bold"
+                            android:textSize="13sp"
+                            android:layout_marginLeft="8dp"/>
+                        <TextView
+                            android:id="@+id/amrd_required_model"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:text="(20대 남녀커플)"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/model_date" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="촬영 날짜 및 소요시간:"
+                            android:textColor="#282828"
+                            android:textStyle="bold"
+                            android:textSize="13sp"
+                            android:layout_marginLeft="8dp"/>
+                        <TextView
+                            android:id="@+id/amrd_date_hours"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:text="(6월25일(일) / 2시간)" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/model_location" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="촬영장소: "
+                            android:textColor="#282828"
+                            android:textStyle="bold"
+                            android:textSize="13sp"
+                            android:layout_marginLeft="8dp"/>
+                        <TextView
+                            android:id="@+id/amrd_place"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="(서울 / 서울숲공원)" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/model_question" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="기타: "
+                            android:textColor="#282828"
+                            android:textStyle="bold"
+                            android:textSize="13sp"
+                            android:layout_marginLeft="8dp"/>
+
+                        <TextView
+                            android:id="@+id/amrd_etc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="afdafda" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

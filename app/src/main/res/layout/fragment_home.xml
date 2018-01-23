@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="12dp"
+    android:layout_marginLeft="11dp"
+    tools:context="pickture.sopt20th.com.pickutre.MainFragment.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp">
+
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fh_pager"
+            ></android.support.v4.view.ViewPager>
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/fh_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:layout_alignBottom="@+id/fh_pager"
+            app:ci_drawable="@drawable/indicator_selector"
+            app:ci_drawable_unselected="@drawable/indicator_unselector"
+            app:ci_height="3dp"
+            app:ci_width="3dp"></me.relex.circleindicator.CircleIndicator>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="12dp">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:id="@+id/fh_imageview_best1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="25dp"
+                android:textStyle="bold"
+                android:text="Best"
+                android:textSize="13dp"
+                android:textColor="#FFFFFF"
+                android:paddingRight="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:text="1"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="#FFFFFF"
+                android:paddingRight="5dp"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            >
+            <ImageView
+                android:id="@+id/fh_imageview_best2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="25dp"
+                android:textStyle="bold"
+                android:text="Best"
+                android:textSize="13dp"
+                android:textColor="#FFFFFF"
+                android:paddingRight="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:text="2"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="#FFFFFF"
+                android:paddingRight="5dp"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            >
+            <ImageView
+                android:id="@+id/fh_imageview_best3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="25dp"
+                android:textStyle="bold"
+                android:text="Best"
+                android:textSize="13dp"
+                android:textColor="#FFFFFF"
+                android:paddingRight="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:text="3"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="#FFFFFF"
+                android:paddingRight="5dp"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            >
+            <ImageView
+                android:id="@+id/fh_imageview_best4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="25dp"
+                android:textStyle="bold"
+                android:text="Best"
+                android:textSize="13dp"
+                android:textColor="#FFFFFF"
+                android:paddingRight="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:text="4"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="#FFFFFF"
+                android:paddingRight="5dp"
+                />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#000000"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="12dp"
+        android:text="CATEGORY"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="13sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="6dp">
+
+        <Button
+            android:id="@+id/fh_btn_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="DATE"
+            android:textColor="#ffffff"
+            android:background="@drawable/date"
+            android:textStyle="bold"
+            android:textSize="11sp"/>
+
+        <Button
+            android:id="@+id/fh_btn_friend"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/friends"
+            android:text="FRIENDS"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="11sp"/></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="6dp">
+
+        <Button
+            android:id="@+id/fh_btn_wedding"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/wedding"
+            android:text="WEDDING"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="6dp">
+
+        <Button
+            android:id="@+id/fh_btn_baby"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/baby"
+            android:text="BABY"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            />
+
+        <Button
+            android:id="@+id/fh_btn_profile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/profile"
+            android:text="PROFILE"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <Button
+            android:id="@+id/fh_btn_etc"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/etc"
+            android:text="ETC"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

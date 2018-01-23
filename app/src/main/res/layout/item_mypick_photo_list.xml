@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pickture.sopt20th.com.pickutre.Custom.MyPickPhotoCheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="160dp"
+        android:layout_height="160dp">
+
+        <ImageView
+            android:id="@+id/impl_imageview"
+            android:layout_width="157dp"
+            android:layout_height="157dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside" />
+        <CheckBox
+            android:id="@+id/impl_checkbox"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginRight="9dp"
+            android:layout_gravity="right"
+            android:clickable="false"
+            android:focusable="false"
+            android:visibility="invisible"
+            />
+    </FrameLayout>
+</pickture.sopt20th.com.pickutre.Custom.MyPickPhotoCheckableLinearLayout>

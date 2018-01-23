@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        app:civ_border_width="0dp"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:src="@drawable/profile2"
+        android:id="@+id/si_profile"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="33dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/si_profile"
+        android:id="@+id/si_linearlayout">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="ID"
+                android:textSize="17sp"
+                android:textColor="#282828"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/si_id"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/check_round_yellow_pick"
+                android:id="@+id/si_mypickcheck"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="1dp"
+                android:visibility="invisible"
+                ></ImageView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"
+            android:textColor="#4B4B4B"
+            android:text="category"
+            android:id="@+id/si_category"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="9dp"
+                android:layout_height="12dp"
+                android:src="@drawable/pointer"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/si_region"
+                android:layout_marginLeft="2dp"
+                android:text="지역"
+                android:textSize="12sp"
+                android:textColor="#4B4B4B"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+

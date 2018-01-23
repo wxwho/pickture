@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="78dp"
+        android:layout_height="73dp">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/impg_profile"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:src="@drawable/profile2"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            app:civ_border_width="0dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="73dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#282828"
+            android:text="ID"
+            android:id="@+id/impg_id"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="17dp"
+            android:layout_marginLeft="13dp"
+            android:textSize="11sp"
+            android:textColor="#5D5D5D"
+            android:text="category"
+            android:id="@+id/impg_category"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="52dp"
+        android:layout_height="73dp">
+
+        <CheckBox
+            android:id="@+id/impg_checkbox"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:visibility="invisible"
+            android:gravity="center"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_marginTop="27dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="24dp"/>
+
+    </LinearLayout>
+
+    <!--android:background="@drawable/mypage_checkbox_uncheck"-->
+
+</LinearLayout>

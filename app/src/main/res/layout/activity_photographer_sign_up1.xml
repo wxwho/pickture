@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_account"
+    tools:context="pickture.sopt20th.com.pickutre.Activity.PhotographerSignUpActivity1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:gravity="center"
+        android:text="Photographer"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/artist_button"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/as2_sex"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남"
+            android:textSize="11sp"
+            android:textColor="#ffffff"
+            android:id="@+id/as2_male"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여"
+            android:textSize="11sp"
+            android:textColor="#ffffff"
+            android:id="@+id/as2_female"
+            android:layout_marginLeft="36dp"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="78dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:src="@drawable/user"/>
+
+        <EditText
+            android:layout_width="120.04dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:includeFontPadding="false"
+            android:hint="Username"
+            android:textColorHint="#ffffff"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:id="@+id/as2_id_edit"
+            android:background="@drawable/edit_bottom_line_for_login_and_sign_up"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/as2_id_check_btn"
+            android:layout_width="56dp"
+            android:layout_height="26dp"
+            android:background="@drawable/recheck_button"
+            android:text="중복확인"
+            android:textColor="#000000"
+            android:textSize="9sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="37dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="23dp"
+            android:src="@drawable/lock" />
+
+        <EditText
+            android:id="@+id/as2_pwd_edit"
+            android:layout_width="174.64dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:hint="Password"
+            android:includeFontPadding="false"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="14sp"
+            android:background="@drawable/edit_bottom_line_for_login_and_sign_up"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="37dp"
+        android:layout_marginLeft="78dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="23dp"
+            android:src="@drawable/relock"/>
+
+        <EditText
+            android:layout_width="174.6dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:includeFontPadding="false"
+            android:hint="Password"
+            android:textColorHint="#ffffff"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:id="@+id/as2_pwd_check_edit"
+            android:background="@drawable/edit_bottom_line_for_login_and_sign_up"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/as2_next_btn"
+        android:layout_width="116dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/next_button"
+        android:text="다음"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

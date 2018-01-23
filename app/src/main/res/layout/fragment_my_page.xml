@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pickture.sopt20th.com.pickutre.MainFragment.MyPageFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp">
+
+        <!--일반 회원용 메뉴-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:orientation="horizontal"
+            android:background="#282828">
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="22dp"
+                android:src="@drawable/user"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="29dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/fmp_estimate_box_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="견적서 보관함"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="29dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#dfdfdf"/>
+
+        <Button
+            android:id="@+id/fmp_model_application_box_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="29dp"
+            android:text="모델 신청 보관함"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#dfdfdf"/>
+
+        <Button
+            android:id="@+id/fmp_purchase_list_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="29dp"
+            android:text="구매 내역"/>
+
+
+
+        <!--작가용 메뉴-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:orientation="horizontal"
+            android:background="#939393">
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="22dp"
+                android:src="@drawable/photographer"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="27dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photographer"
+                android:layout_gravity="center_vertical"
+                android:textColor="#c3c3c3"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="9dp"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/fmp_page_management_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="29dp"
+            android:text="작가 페이지 관리"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#dfdfdf"/>
+
+        <Button
+            android:id="@+id/fmp_estimate_management_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="29dp"
+            android:text="견적서 관리"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#dfdfdf"/>
+
+        <Button
+            android:id="@+id/fmp_model_requiring_box_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="29dp"
+            android:text="견적서 보관함"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#dfdfdf"/>
+
+        <Button
+            android:id="@+id/fmp_model_requiring_management_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="29dp"
+            android:text="모델 구인 게시물 관리"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#dfdfdf"/>
+
+        <Button
+            android:id="@+id/fmp_model_application_management_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="29dp"
+            android:text="모델 구인 신청서 관리"/>
+
+        <!--설정 메뉴-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:orientation="horizontal"
+            android:background="#282828">
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="22dp"
+                android:src="@drawable/settings"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="29dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setting"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="9dp"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/fmp_setting_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="29dp"
+            android:text="환경설정"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#dfdfdf"/>
+
+        <Button
+            android:id="@+id/fmp_setting_logout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="29dp"
+            android:text="로그아웃"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>

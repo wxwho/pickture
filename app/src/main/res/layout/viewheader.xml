@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="31dp"
+    android:layout_marginRight="31dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_yellow" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:text="INTRODUCTION"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#282828"
+            android:id="@+id/v_introduction"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/v_introduction_brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="6dp"
+        android:text="상호 : 율케이스스냅"
+        android:textSize="13sp"/>
+    <TextView
+        android:id="@+id/v_introduction_ceo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="6dp"
+        android:text="대표 : 김태율"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/v_introduction_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="6dp"
+        android:text="주소 : 서울특별시 성동구 성수동"
+        android:textSize="13sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_yellow" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="19dp"
+            android:text="PRODUCT"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="14sp"
+            android:textColor="#282828"
+            android:id="@+id/header_product"/>
+    </LinearLayout>
+
+</LinearLayout>

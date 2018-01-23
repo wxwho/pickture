@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="286dp"
+    android:layout_height="154dp"
+    android:background="#ACACAC"
+    android:layout_centerInParent="true"
+    tools:context="pickture.sopt20th.com.pickutre.Dialog.ReviewDialog">
+
+    <TextView
+        android:id="@+id/ard_msg_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="#282828"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/ard_ok_btn"
+        android:layout_width="181dp"
+        android:layout_height="37dp"
+        android:text="확    인"
+        android:textSize="12sp"
+        android:textColor="#B6B6B6"
+        android:layout_below="@+id/ard_msg_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="21dp"
+        android:background="#282828"/>
+
+</RelativeLayout>
